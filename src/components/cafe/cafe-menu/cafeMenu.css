@@ -1,0 +1,37 @@
+/* coffee section */
+.coffee-sectione {
+  box-sizing: border-box;
+  min-height: 90vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.986);
+  padding: 0 30px;
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.pexels.com/photos/1526/dark-blur-blurred-gradient.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+/* cafe list  */
+.cafe-liste {
+  padding: 70px 0 0 0;
+}
+.cafe-liste h2 {
+  text-align: center;
+  color: #111111;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  z-index: 10;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #d5d8cb, #d3e7f1);
+  opacity: 0.3;
+  position: absolute;
+  justifycontent: center;
+  alignitems: center;
+  margin: 0 0 0 -30px;
+}

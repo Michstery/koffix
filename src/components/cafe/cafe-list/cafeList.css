@@ -1,0 +1,31 @@
+.field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(250, 250, 250, 0.2);
+  color: #ded4d4;
+  font: 1em Arial, Helvetica, sans-serif;
+  /* font-weight: bold; */
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  @media (max-width: 500px) {
+    .pic {
+      width: "338px";
+      height: "250px";
+    }
+  }
+}
